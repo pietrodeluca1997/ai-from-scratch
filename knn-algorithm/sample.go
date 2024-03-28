@@ -10,10 +10,10 @@ func Run() {
 	dataset := datasets_customer.Get()
 
 	newCustomer := entities.Customer{
-		Age:           26,
-		Name:          "Pietro",
-		MonthlyIncome: 1000,
-		AverageIncome: 500,
+		Age:           74,
+		Name:          "Vera",
+		MonthlyIncome: 10000,
+		AverageIncome: 2000,
 	}
 
 	classification := Classify(newCustomer, 2, dataset)

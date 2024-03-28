@@ -30,9 +30,10 @@ func Get() *CustomerDataset {
 			{Age: 20, MonthlyIncome: 2500, AverageIncome: -1000},
 			{Age: 35, MonthlyIncome: 3500, AverageIncome: 2000},
 			{Age: 35, MonthlyIncome: 1500, AverageIncome: -2000},
+			{Age: 35, MonthlyIncome: 2500, AverageIncome: 200},
 			{Age: 45, MonthlyIncome: 4500, AverageIncome: 3000},
 			{Age: 55, MonthlyIncome: 5500, AverageIncome: 4000},
 		},
-		Classifications: []BinaryClassification{GoodPayer, BadPayer, GoodPayer, BadPayer, BadPayer, BadPayer},
+		Classifications: []BinaryClassification{GoodPayer, BadPayer, GoodPayer, BadPayer, BadPayer, GoodPayer, GoodPayer},
 	}
 }
